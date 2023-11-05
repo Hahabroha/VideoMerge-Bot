@@ -13,7 +13,7 @@ class Config(object):
     DOWN_PATH = os.environ.get("DOWN_PATH", "./downloads")
     TIME_GAP = int(os.environ.get("TIME_GAP", 5))
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", 5))
-    STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME", 50f4c1400aa4d1a21075),
+    STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME","50f4c1400aa4d1a21075"),
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS", "LYwP8KKdpRcRK63"),
     MONGODB_URI = os.environ.get("MONGODB_URI", "mongodb+srv://TEACHER:TEACHER@cluster0.rw02bgj.mongodb.net/?retryWrites=true&w=majority)
     BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
